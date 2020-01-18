@@ -10,3 +10,5 @@ if (__name__ == "__main__"):
     race.prepareCompetitors({"Ada":"red", "Bob":"green", "Ivy":"blue", "Jim":"orange"})
     race.startRace()
     tk.mainloop()
+    # exit immidiately, once top window is closed:
+    tk._exit()
