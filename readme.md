@@ -9,13 +9,13 @@ Racer class inherits from my custom class Tortoise (which actually must be absta
 And then second implementation of Tortoise is Worker - "rubbish guy", who doesn't even have its name.
 
 ```
-Object
-	|--> Race
-	       ^
-	       |
-	turtle.Turtle 
-		|--> Tortoise 
-				|--> Worker
-				|--> Racer
+    Object
+      |--> Race
+             ^
+             |
+    turtle.Turtle 
+             |--> Tortoise 
+              |--> Worker
+              |--> Racer
 ```
 ![Screenshot](Turtle&#32;Race.png)
