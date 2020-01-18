@@ -5,7 +5,7 @@ from .tortoise import Tortoise
 
 class Worker (Tortoise):
     def __init__(self) :
-        super ().__init__()
+        super().__init__()
         self.setColour("black")
         self.setShape("turtle")
         self.setSpeed(0)

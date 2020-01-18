@@ -5,7 +5,7 @@ import turtle
 
 class Tortoise(turtle.Turtle):
     def __init__(self, color:str=None, speed:int=0, pensize:int=0):
-        super ().__init__()
+        super().__init__()
         self.setSpeed(speed)
         self.setPenSize(pensize)
         self.penup()
@@ -18,6 +18,6 @@ class Tortoise(turtle.Turtle):
     
     def setColour(self, color:str=None):
         self.color(color)
-    
+
     def setShape(self, shape:str=None):
         self.shape(shape)
