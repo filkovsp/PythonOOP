@@ -8,6 +8,7 @@ Race instance has list of pilots (competitors) - they are instances of Racer cla
 Racer class inherits from my custom class Tortoise (which actually must be abstarct)
 And then second implementation of Tortoise is Worker - "rubbish guy", who doesn't even have its name.
 
+```
 Object
 	|--> Race
 	       ^
@@ -16,5 +17,5 @@ Object
 		|--> Tortoise 
 				|--> Worker
 				|--> Racer
-
-![Screenshot](./Turtle Race.png)
+```
+![Screenshot](Turtle&#32;Race.png)
