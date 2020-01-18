@@ -15,7 +15,7 @@ And then second implementation of Tortoise is Worker - "rubbish guy", who doesn'
              |
     turtle.Turtle 
              |--> Tortoise 
-              |--> Worker
-              |--> Racer
+                      |--> Worker
+                      |--> Racer
 ```
 ![Screenshot](Turtle&#32;Race.png)
