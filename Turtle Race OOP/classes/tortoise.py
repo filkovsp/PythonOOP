@@ -1,18 +1,15 @@
 if (__name__ == "__main__"):
-    raise Exception("This is not the file you should start, you idiot!")
+    raise Exception("This is not the file you should run, you stupid idiot!")
 
 import turtle
 
 class Tortoise(turtle.Turtle):
-    def __init__(self, speed:int=0, pensize:int=0):
-        super().__init__()
-        # self.visible = False
-        # self.shape("turtle")
-        # self.color(color)
-        self.speed(speed)
+    def __init__(self, color:str=None, speed:int=0, pensize:int=0):
+        super ().__init__()
+        self.setSpeed(speed)
+        self.setPenSize(pensize)
         self.penup()
-        self.pensize(pensize)
-    
+
     def setPenSize(self, pensize:int=0):
         self.pensize(pensize)
     
@@ -21,6 +18,6 @@ class Tortoise(turtle.Turtle):
     
     def setColour(self, color:str=None):
         self.color(color)
-
+    
     def setShape(self, shape:str=None):
         self.shape(shape)
